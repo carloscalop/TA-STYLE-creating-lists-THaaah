@@ -1,0 +1,121 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+ h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, 
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* General */
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 32px;
+}
+.flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.body {
+	background-color: #D4CEA7;
+}
+.stretch {
+	align-items: stretch;
+}
+/* Header */
+.header {
+	padding: 16px 0;
+	background-color: #F96115;
+	}
+.nav a {
+	font-size: 18px;
+	margin-left: 32px;	
+	text-decoration: none;
+	color: #ffffff;
+	}
+
+	/* list containers */
+.list-container {
+	height: 450px;
+	width: 250px;
+	margin-left: 60px;
+	margin-top: 25px;
+	margin-right: 45px;
+	background-color: #005979 ;
+	padding: 32px 0;
+	padding-bottom: 75px;
+	text-align: left;	
+	width: 30%;
+	color: #D4CEA7;
+	box-shadow: 5px 10px 8px #888888;
+	line-height: 20pt;
+	}
+li {
+	font-size: 20px;
+}
+.card3 ul {
+	list-style-type: none;
+	list-style-image: url(../assets/tick.png);
+}
+.heading {
+	font-size: 36px;
+	font-weight: 700;
+	padding: 20px 40px;
+	color: #252C22;
+	}
+.text {
+	padding: 0 85px 10px;
+	color: #252C22;
+}
+/* footer */
+
+.footer {
+	padding: 26px 0;
+	background-color: #252C22;
+	}
